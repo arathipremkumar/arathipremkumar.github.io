@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+
+
+<style>
+body {
+  font-family: 'Charm';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.main{
+    float: right;
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+   
+}
+ul li a{
+    font-family:'PT Serif Caption';
+    color: rgb(161, 7, 92);
+    font-size: .65cm;
+    margin-top: 10px;
+    padding:5px 15px;
+    transition: 0.6s ease;
+}
+ul li :hover{
+    color: rgb(43, 29, 231);
+    font-size:.7cm ;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+  background: #d32389;
+  color: white;
+}
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+</style>
+
+    </head>
+    <body>
+      
+        <div class="container">
+          <div>
+            <ul class="main">
+                <li><a href="arathi@2000.html" ><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="education.html" ><i class="fa fa-graduation-cap"></i>Education</a></li>
+                <li><a href="avocation.html"><i class="fa fa-star"></i>Avocation</a></li>
+                <li><a href="contact.html"  style="font-size: .9cm;color: cornflowerblue;"><i class="fa fa-phone-square"></i>Contact</a></li>
+            </ul>
+          </div>
+            <div style="text-align:center">
+              <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+              <a href="https://twitter.com/Aswathi_Prem" class="fa fa-twitter"></a>
+              <a href="https://www.instagram.com/_arathi_prem/" class="fa fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/arathi-premkumar-9054171ab/" class="fa fa-linkedin"></a>
+              <h1><u><b>Contact Me</b></u></h1>
+              <p style="font-size: .7cm;">Leave me a message...</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="https://freesvg.org/img/LeaveMeANote.png" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="gmail">G mail</label>
+                  <input type="text" id="gmail" name="gmail" placeholder="----------@gmail.com">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="your message...." style="height:170px"></textarea>
+                  <input type="submit" value="Submit" a href="#">
+                </form>
+              </div>
+            </div>
+          </div>
+          
+          </body>
+          
+</html>

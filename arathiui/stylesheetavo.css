@@ -1,0 +1,58 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.c"
+body {
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAcIBwcHBwcHBwoHBwcHBw8ICQcKFREWFhURExMYHCggGCYxGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0NDg0NDi0ZFRk3NzctLTc3KysrKystNzcrKzctKy03LS0rKzcrLTcrKysrKy0tKystKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAgEDB//EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABgBAQEBAQEAAAAAAAAAAAAAAAACAQQD/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwD1oB0u4AAAAAAAAaNBjTG4xjMbjW4zWanDFYYaanDFYYaanGYvGGmpYrGY3WsYpjWsAAAAAAAAAAAAAAAAAAAAaNAbISNZawbI2RuJTrMbjcbhqdTjcVhjDU4YrDA1GMxeMxpqLGLxlgrUWMUyxUqksUxrWAAAAAAAAAAAAAAAANZGgKjIqMrBUhIqJTaRshIqRiLWSKxuNxms1ONxWGM1mpwxWGGmoxli8ZY3TXOxli7E2NVKixLpU2NXKixK6mqimMaytaAAAAAAAAAAAAAA0Gg2KjIqJTWxUZFRiK2RUZFRNRSRUhIpKdZg1oxJimAnE2OjKN1zqbF2MqoqOdTV2JqlxFTV1NauIGsUpgAAAAAAAAAAABAgNjYyNgxS4iLiE1sXExcYiti4mKiUVsaNiUtkbgDDGWNAQNrGtTUV0qK1URU1dRVLiahdRWriayqqatTKFBoAAAAAAAAAAQIDY2MjYxi4qIi4lNVFxEXGPOqi4iKiU1UVEtiUKAGAAMqW1lFMqKuorWxNRV1FWuJqaqprXpE1NbWVSmUKNaAAAAAAAAAAEAGxsY0FKiYqJRVRcRFRKKuLjnFRNRVxqZVMSqU1LWMbpaxgDK1NrWlRW1NbFRlRVVNUuMqFVNUuJrK1ilMoA0AAAAAAAAAAABoyNBUVERUTU1cVEStjE2Okqo5yqlYixcqpUa3UpxeiNbrGYrTU6zTDFWptNZrcbhU2lqbVKkKmtqbWrkZU1qa2KjAZVKAAAAAAAAAAAAAAGsAaqJaMUqVErUssdGyolbrE2LlVrnrdYnF63UaaMxes1OmhitTazWaNxtrLWMtaqQtSMtaqQtS1imjAGgAAAAAAAAAAAAAAADWAKbKkGLbKjW6nGYvW6g1jMXrdRpoYvWanTQxWs1jAxtrGazW43G2sYKaMAaAAAAAAAAAAAAAAAAAAAANABoAa3WAxumgzA00DA1mg0GANGAAAAAAAAAAAAAD/2Q==");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    font-family: 'Charm';font-size: 2cm;
+}
+.texts{
+    font-family: 'Charm';font-size: .5cm;
+    color: black;
+}
+.heads{
+    font-family: 'Charm';
+    font-size: .55cm;
+
+}
+.container{
+    width: 100%; height: auto;
+    text-align: center;
+}
+.col-sm-4{
+    padding: 20px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+.col-sm-4:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.9);
+    transform: translateY(-20px);
+}
+
+
+.w3-content {
+  padding-left: 400px;
+}
+ul li{
+    display: inline;
+   
+}
+ul li a{
+    font-family:'PT Serif Caption';
+    color: rgb(161, 7, 92);
+    font-size: .65cm;
+    margin-top: 10px;
+    padding:5px 15px;
+    transition: 0.6s ease;
+}
+ul li :hover{
+    color: rgb(43, 29, 231);
+    font-size:.7cm ;
+
+}
