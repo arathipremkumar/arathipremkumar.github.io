@@ -18,13 +18,15 @@ body{
 } 
 .main{
     float: right;
+}
+ul{
     list-style-type: none;
 }
-.menu{
+#menu{
     display: inline;
    
 }
-.menu{
+ul li a{
     font-family:'PT Serif Caption';
     color: rgb(161, 7, 92);
     font-size: .65cm;
@@ -32,7 +34,7 @@ body{
     padding:5px 15px;
     transition: 0.6s ease;
 }
-.menu{
+ul li :hover{
     color: rgb(43, 29, 231);
     font-size:.7cm ;
 
